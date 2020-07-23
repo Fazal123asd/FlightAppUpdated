@@ -1,0 +1,42 @@
+.Flight{
+    height: 100px;
+    padding: 0;
+    margin: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* font-size: 9px; */
+}
+
+.Logo{
+    height: 60%;
+}
+
+.Button{
+    border: 1px solid #008cff;
+    border-radius: 96px;
+    font-size: 14px;
+    width: 122px;
+    line-height: 32px;
+    outline: none;
+    background: #daebff;
+    padding: 0 24px 0 14px;
+    text-align: center;
+    width: 100px;
+    cursor: pointer;
+}
+
+@media(min-width:600px){
+   .Flight{
+       font-size: initial;
+       
+   }
+   .Flight button{
+    font-size: 14px;
+    width: 122px;
+   }
+   .Logo{
+       height: 60%;
+   }
+}
+

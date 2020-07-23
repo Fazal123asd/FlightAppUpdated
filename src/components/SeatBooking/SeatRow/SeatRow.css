@@ -1,0 +1,15 @@
+.SeatRow {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-right: 3px;
+}
+
+
+.SeatRow :first-of-type, .SeatRow :last-of-type {
+    font-size: 11px;
+    color: #1e4770;
+    width: auto;
+    height: auto;
+    margin: 0;
+    line-height: 16px;
+}
